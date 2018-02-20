@@ -1,16 +1,22 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+
 //rutas
 import { APP_ROUTER } from './app.routes';
 import { PagesModule } from './pages/pages.module';
 import { PAGES_ROUTES } from './pages/pages.routes';
- 
+
+//servicios
+import { ServiceModule } from './services/service.module';
+
 //componentes 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 // import { IncrementadorComponent } from './components/incrementador/incrementador.component';
 import { FormsModule } from '@angular/forms';
+
+
 
 
 
@@ -28,7 +34,8 @@ import { FormsModule } from '@angular/forms';
     APP_ROUTER,
     PagesModule,
     PAGES_ROUTES,
-    FormsModule
+    FormsModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
