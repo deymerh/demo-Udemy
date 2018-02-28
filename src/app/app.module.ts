@@ -16,11 +16,6 @@ import { RegisterComponent } from './login/register.component';
 // import { IncrementadorComponent } from './components/incrementador/incrementador.component';
 import { FormsModule } from '@angular/forms';
 
-
-
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
